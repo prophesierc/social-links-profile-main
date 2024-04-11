@@ -73,16 +73,22 @@ body{
   text-align: center;
   font-size: 11px; 
   position: absolute;
-  top: 90%;
+  bottom: 10px; 
   left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 20%;
+  transform: translateX(-50%);
 }
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
 
-.buttonList li:hover{
+.buttonList li:hover {
   background-color: hsl(75, 94%, 57%);
+}
+
+@media (min-width: 375px) {
+  .attribution { 
+    position: absolute; 
+    bottom: 10px; 
+  }
 }
