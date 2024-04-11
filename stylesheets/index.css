@@ -8,56 +8,80 @@ body{
 
 .mainContainer{
   background-color: hsl(0, 0%, 12%);
-  width: 327px;
-  height: 580px;
+  width: 317px;
+  height: 563px;
   position: absolute;
-  top: 50%;
+  top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 4%;
 }
 
 .itemContainer{
-  margin-left: 10%;
-  margin-right: 10%;
   height: 100%;
   text-align: center;
-  top: 33px;
   position: relative;
+  top: 28px;
 }
 
 .jessicaAvatar{
   border-radius: 100%;
   width: 90px;
 }
+
 .name{
-  padding-top: 3%;
   color: #ffff;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .location{
+  position: inherit;
+  top: -1%;
   font-size: 14px;
   font-weight: 400;
-  color: #ffff;
+  color: hsl(75, 94%, 57%);
 }
 
 .title{
+  position: inherit;
+  top: 1%;
+  font-size: 14px;
+  font-weight: 200;
   color: #ffff;
 }
+
 .buttonList{
-  color: #ffff;
+  color: hsl(0, 0%, 100%);
   list-style-type: none;
+}
+
+.buttonList li{
+  font-size: 14px;
+  font-weight: 600;
+  transform: translate(-7%, 25%);
+  background-color: hsl(0, 0%, 20%);
+  height: 45px;
+  margin-top: 5%;
+  line-height: 45px;
+  border-radius: 5px;
 
 }
   
-/* footer   */
-  .attribution { 
-    font-size: 11px; 
-    text-align: center; 
+/* footer  */
+.attribution { 
+  text-align: center;
+  font-size: 11px; 
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-  .attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.buttonList li:hover{
+  background-color: hsl(75, 94%, 57%);
 }
