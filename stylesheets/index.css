@@ -1,19 +1,56 @@
 body{
-    background-color: hsl(0, 0%, 8%);
-    max-width: 375px;
-    height: 500px;
-    overflow: hidden;
+  background-color: hsl(0, 0%, 8%);
+  max-width: 375px;
+  max-height: 815px;
+  overflow: hidden;
+  font-family: 'Inter';
 }
+
 .mainContainer{
-    background-color: hsl(0, 0%, 12%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  background-color: hsl(0, 0%, 12%);
+  width: 327px;
+  height: 580px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4%;
+}
+
+.itemContainer{
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%;
+  text-align: center;
+  top: 33px;
+  position: relative;
+}
+
+.jessicaAvatar{
+  border-radius: 100%;
+  width: 90px;
+}
+.name{
+  padding-top: 3%;
+  color: #ffff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.location{
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffff;
+}
+
+.title{
+  color: #ffff;
+}
+.buttonList{
+  color: #ffff;
+  list-style-type: none;
 
 }
-  
-  
   
 /* footer   */
   .attribution { 
